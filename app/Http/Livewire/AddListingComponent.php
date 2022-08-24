@@ -8,6 +8,6 @@ class AddListingComponent extends Component
 {
     public function render()
     {
-        return view('livewire.add-listing-component');
+        return view('livewire.add-listing-component')->layout('layouts.app');
     }
 }

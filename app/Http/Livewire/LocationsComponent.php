@@ -8,6 +8,6 @@ class LocationsComponent extends Component
 {
     public function render()
     {
-        return view('livewire.locations-component');
+        return view('livewire.locations-component')->layout('layouts.app');
     }
 }
